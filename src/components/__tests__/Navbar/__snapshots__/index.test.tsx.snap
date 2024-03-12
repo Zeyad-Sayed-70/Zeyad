@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render navbar component 1`] = `
+<nav
+  class="h-[70px] w-full flex items-center gap-12"
+>
+  <a
+    href="/"
+  >
+    <img
+      alt="ZEYAD Logo"
+      data-nimg="1"
+      decoding="async"
+      height="40"
+      loading="lazy"
+      src="/_next/image?url=%2Fassets%2Fzeyad_logo.png&w=256&q=75"
+      srcset="/_next/image?url=%2Fassets%2Fzeyad_logo.png&w=128&q=75 1x, /_next/image?url=%2Fassets%2Fzeyad_logo.png&w=256&q=75 2x"
+      style="color: transparent;"
+      width="100"
+    />
+  </a>
+</nav>
+`;

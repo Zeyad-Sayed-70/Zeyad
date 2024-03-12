@@ -1,0 +1,27 @@
+.slide-to-left {
+  animation: slide-to-left 0.5s both ease-in-out;
+}
+
+.slide-to-right {
+  animation: slide-to-right 0.5s both ease-in-out;
+}
+
+@keyframes slide-to-left {
+  from {
+    right: -120%;
+  }
+
+  to {
+    right: 0;
+  }
+}
+
+@keyframes slide-to-right {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: -120%;
+  }
+}
